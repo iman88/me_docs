@@ -1,0 +1,22 @@
+Training:
+https://www.linkedin.com/learning/jmeter-performance-and-load-testing/
+
+Book:
+JMeter Cookbook by Bayo Erinle
+
+Setup:
+1. Download
+2. Installing Plugins
+		The easiest way to get the plugins is to install Plugins Manager. Then you'll be able to install any other plugins just by clicking a checkbox.
+		Download plugins-manager.jar and put it into lib/ext directory, then restart JMeter.  
+
+Commands:
+
+// open jmeter
+$ sh jmeter.sh
+// run jmeter projects
+$ sh jmeter.sh -n -t projects/demo.jmx
+// run jmeter projects and save results into jtl file
+$ sh jmeter.sh -n -t projects/demo.jmx -l projects/results/demo.jtl
+// run jmeter projects and save results into jtl file and generate html report
+$ sh jmeter.sh -n -t projects/demo.jmx -l projects/results/demo.jtl -e -o projects/results
